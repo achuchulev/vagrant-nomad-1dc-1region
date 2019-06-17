@@ -19,5 +19,5 @@ advertise {
 # Enable the client
 client {
   enabled = true
-  servers = ["192.168.10.11:4647"]
+  servers = ["192.168.10.10:4647"]
 }
