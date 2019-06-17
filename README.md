@@ -32,7 +32,7 @@ $ vagrant up
 ssh to nomad vm
 
 ```
-$ vagrant ssh server1-dc1
+$ vagrant ssh nomad
 ```
 
 ### Run nomad job
