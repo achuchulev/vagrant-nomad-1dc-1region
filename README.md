@@ -38,7 +38,15 @@ $ vagrant ssh nomad
 
 - go to [jobs](http://localhost:4646/ui/jobs)
 - click on `Run job`
-- paste or author HCL or JSON to submit to your cluster. A plan will be requested before the job is submitted
+- paste the following sample nomad job [nomad_jobs/nginx.hcl](https://github.com/achuchulev/vagrant-nomad-1dc-1region/blob/master/nomad_jobs/nginx.hcl) that run nginx on docker
+
+  or 
+
+  author one in HCL or JSON format and submit.
+  
+```
+Note that a plan will be requested before the job is submitted
+```
 - run `Plan`
 - review `Job Plan` and `Run` it
 
