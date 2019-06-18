@@ -1,8 +1,5 @@
 # Nomad running in Dev mode located in single DC and Region
 
-### High-level overview
-<img src="diagrams/nomad-1dc-1region.png" />
-
 ### Pre-requisites
 
 - vagrant
