@@ -2,7 +2,7 @@ Vagrant.configure("2") do |config|
   config.vm.define vm_name="nomad" do |nomad|
     nomad.vm.box = "achuchulev/nomad"
     nomad.vm.box_version = "0.0.1"
-    nomad.vm.hostname = "nomad"
+    nomad.vm.hostname = "server-dc1"
     nomad.vm.network "forwarded_port", guest: 4646, host: 4646
     nomad.vm.synced_folder ".", "/vagrant", disabled: false
     nomad.vm.network "private_network", ip: "192.168.10.10"
