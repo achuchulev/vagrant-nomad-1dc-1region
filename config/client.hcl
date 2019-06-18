@@ -5,7 +5,7 @@ log_level = "DEBUG"
 data_dir  = "/opt/nomad"
 
 # Give the agent a unique name. Defaults to hostname
-name = "client"
+name = "client-dc1"
 
 region = "global"
 
