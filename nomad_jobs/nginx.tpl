@@ -1,6 +1,6 @@
 server {
     listen       {{ env "NOMAD_PORT_nginx" }};
-    server_name  localhost;
+    server_name  192.168.10.10;
 
     location / {
         root   /usr/share/nginx/html;
