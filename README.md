@@ -1,4 +1,4 @@
-# Nomad located in single DC & Region running in Dev mode
+# Nomad running in single DC & Region in Dev mode
 
 ### Pre-requisites
 
